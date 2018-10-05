@@ -16,7 +16,7 @@ namespace Profile.Controllers
         }
         // GET api/values
         [HttpGet]
-        public async Task<ActionResult<Services.Profile>> Get()
+        public async Task<ActionResult<CV.Contracts.Profile.Profile>> Get()
         {
             var profile = await _profileService.GetProfile();
 

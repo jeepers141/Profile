@@ -1,13 +1,14 @@
 using System;
 using System.Threading.Tasks;
+using CV.Contracts.Profile;
 
 namespace Profile.Services
 {
     public class ProfileService : IProfileService
     {
-        public async Task<Profile> GetProfile()
+        public async Task<CV.Contracts.Profile.Profile> GetProfile()
         {
-            return await Task.Run(() => new Profile
+            return await Task.Run(() => new CV.Contracts.Profile.Profile
             {
                 FirstName = "Gareth",
                 LastName = "Knight",
