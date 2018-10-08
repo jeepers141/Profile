@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.8.1" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.0" />
-    <PackageReference Include="CV.Contracts" Version="20181008.16.0" />
+    <PackageReference Include="CV.Contracts" Version="20181008.29.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
