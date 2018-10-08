@@ -14,8 +14,8 @@ namespace Profile.Services
                 LastName = "Knight",
                 DateOfBirth = new DateTime(1980, 11, 27),
                 ContactDetails = new ContactDetails {Mobile = "+41797105291", Email = "gareth.knight@outlook.com"},
-                CountryOfBirth = new Country { Code = "GB",Name = "United Kingdom" },
-                CountryOfResidence = new Country { Code = "CH", Name = "Switzerland" },
+                CountryOfBirth = new Country(  "GB","United Kingdom"),
+                CountryOfResidence = new Country("CH", "Switzerland"),
                 SocialMedia = new SocialMedia {LinkedIn = @"https://www.linkedin.com/in/gareth-knight-86173742/"}
             });
 
