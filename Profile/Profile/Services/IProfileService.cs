@@ -4,6 +4,6 @@ namespace Profile.Services
 {
     public interface IProfileService
     {
-        Task<Profile> GetProfile();
+        Task<CV.Contracts.Profile.Profile> GetProfile();
     }
 }

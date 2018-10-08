@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using CV.Contracts.Profile;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Profile.Services;
 using Shouldly;
