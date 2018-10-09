@@ -1,15 +1,14 @@
 using System.Threading.Tasks;
 using CV.Contracts.Profile;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Profile.Services;
 using Shouldly;
+using Xunit;
 
 namespace Profile.UnitTests
 {
-    [TestClass]
     public class ProfileServiceUnitTests
     {
-        [TestMethod]
+        [Fact]
         public async Task ReturnProfile()
         {
             var profileService = new ProfileService();
